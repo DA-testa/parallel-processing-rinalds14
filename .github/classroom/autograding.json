@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "2 5\r\n1 2 3 4 5",
+      "output": "0 0\r\n1 0\r\n0 1\r\n1 2\r\n0 4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "4 20\r\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "output": "0 0\r\n1 0\r\n2 0\r\n3 0\r\n0 1\r\n1 1\r\n2 1\r\n3 1\r\n0 2\r\n1 2\r\n2 2\r\n3 2\r\n0 3\r\n1 3\r\n2 3\r\n3 3\r\n0 4\r\n1 4\r\n2 4\r\n3 4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
