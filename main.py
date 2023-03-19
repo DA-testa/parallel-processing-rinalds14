@@ -1,4 +1,5 @@
 # python3
+#221RDB489 Rinalds Dobelis 16.grupa
 
 def parallel_processing(n, m, data):
     output = []
